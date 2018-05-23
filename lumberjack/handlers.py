@@ -9,7 +9,7 @@ class GzippedTimedRotatingFileHandler(TimedRotatingFileHandler):
 
     def __init__(self, filename, when='h', interval=1, backupCount=0, encoding=None, delay=False, utc=False):
         """
-        :param string filename:
+        :param string filename: path to the desired log file
         :param string when: used with `interval` to determine when to rotate
         :param int interval: used with `when` to determine when to rotate
         :param int backupCount: number of rotated files to keep
