@@ -1,0 +1,7 @@
+NAME = 'lumberjack'
+DESCRIPTION = 'A logging package for Python.'
+URL = 'https://github.com/Exide/lumberjack'
+EMAIL = 'exide@hotmail.com'
+AUTHOR = 'Ryan Zander'
+REQUIRES_PYTHON = '>=2.7.0'
+VERSION = '0.0.1'
